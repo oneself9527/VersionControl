@@ -1,5 +1,5 @@
 ok  i love you   
 add branch  dev
 creating a new branch is quick and simple
-add merge
+add merge add delete
 
