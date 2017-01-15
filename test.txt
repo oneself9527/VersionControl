@@ -1,2 +1,3 @@
 ok  i love you   
 add branch  dev
+creating a new branch is quick & simple
