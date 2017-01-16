@@ -1,4 +1,4 @@
-ok  i love you   
+﻿ok  i love you   
 add branch  dev
 creating a new branch is quick and simple
 add merge add delete     ¡®add  xcc  jianbi¡¯
@@ -8,3 +8,5 @@ add merge add delete     ¡®add  xcc  jianbi¡¯
 caonima ni g shabi  xcc  you are stupid  jianbi
 
 on github alter file
+
+on Local modification 
