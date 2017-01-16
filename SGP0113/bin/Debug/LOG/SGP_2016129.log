@@ -1,9 +1,0 @@
-﻿
-
-Time :2016-12-9 19:19:44
-Title:GameLogicModule->MachineParameters方法->登入服务器返回信息后触发错误<BR>从字符串“80/192.168.1.27,10051,100,1,300,”到类型“Integer”的转换无效。<BR>   在 Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
-   在 GameServer.LogicModule.MachineParameters(String _Message) 位置 D:\游戏服务器框架\水果盘(服务器)框架更新版本61206\2.待开发代码区\LogicModule.vb:行号 2490
-
-Time :2016-12-9 19:20:10
-Title:GameLogicModule->MachineParameters方法->登入服务器返回信息后触发错误<BR>从字符串“80/192.168.1.27,10051,100,1,300,”到类型“Integer”的转换无效。<BR>   在 Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
-   在 GameServer.LogicModule.MachineParameters(String _Message) 位置 D:\游戏服务器框架\水果盘(服务器)框架更新版本61206\2.待开发代码区\LogicModule.vb:行号 2490
