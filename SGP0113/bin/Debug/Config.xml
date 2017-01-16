@@ -1,0 +1,4 @@
+﻿<Config>
+   <Tag help="标记">SGP</Tag>
+   <ConnectString help="配置数据库连接字符串">server=123.206.23.121;uid=sa;pwd=##qqwwee112233###;database=DB_ElectronGameConfig;MultipleActiveResultSets=true;Connection Timeout=30;Pooling=true;Max Pool Size=512;Min Pool Size=1;</ConnectString>
+</Config>

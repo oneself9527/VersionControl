@@ -1,0 +1,108 @@
+﻿
+
+Time :2016-11-30 17:35:59
+Title:执行过程：ServerSocketClass.StartListen(启动监听)
+
+Time :2016-11-30 17:35:59
+Title:执行过程：ClientSocketClass.StartConnect(启动连接)：
+
+Time :2016-11-30 17:38:31
+Title:执行过程：ServerSocketClass.StartListen(启动监听)
+
+Time :2016-11-30 17:38:32
+Title:执行过程：ClientSocketClass.StartConnect(启动连接)：
+
+Time :2016-11-30 17:39:10
+Title:执行过程：ServerSocketClass.StartListen(启动监听)
+
+Time :2016-11-30 17:39:10
+Title:执行过程：ClientSocketClass.StartConnect(启动连接)：
+
+Time :2016-11-30 17:39:40
+Title:执行过程：ServerSocketClass.StartListen(启动监听)
+
+Time :2016-11-30 17:39:40
+Title:执行过程：ClientSocketClass.StartConnect(启动连接)：
+
+Time :2016-11-30 17:39:57
+Title:查询异常：SQLServerControlClass.ExecParamSelect 1 
+数据库：DB_ELECTRONGAMECONFIG
+SQL语句：update T_EGC_GameServerData set _dCheckActiveTime=getdate(),_iOnlineCount=0,_nConnectState=N'已啟動' where _vTag='5PK'
+正在中止线程。
+   在 SNIReadSyncOverAsync(SNI_ConnWrapper* , SNI_Packet** , Int32 )
+   在 SNINativeMethodWrapper.SNIReadSyncOverAsync(SafeHandle pConn, IntPtr& packet, Int32 timeout)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 ToolModule.SQLServerControlClass.ExecParamSQL(Int32 _ModeNum, String _SQLstr, SqlParameter[]& _SQLParams) 位置 D:\00.机台手游项目\PublicModule\ToolModule\通用数据库控制\SQLServerControlClass.vb:行号 86
+
+Time :2016-11-30 17:39:57
+Title:异常过程：ServerSocketClass.ServerListen（循环体内）
+正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne()
+   在 ToolModule.ServerSocketClass.ServerListen() 位置 D:\00.机台手游项目\PublicModule\ToolModule\通用Socket\ServerSocketClass.vb:行号 166
+
+Time :2016-11-30 17:39:57
+Title:异常过程：ServerSocketClass.Acceptasyn
+已关闭 Safe handle
+   在 System.Runtime.InteropServices.SafeHandle.DangerousAddRef(Boolean& success)
+   在 System.StubHelpers.StubHelpers.SafeHandleAddRef(SafeHandle pHandle, Boolean& success)
+   在 Microsoft.Win32.Win32Native.SetEvent(SafeWaitHandle handle)
+   在 System.Threading.EventWaitHandle.Set()
+   在 ToolModule.ServerSocketClass.Acceptasyn(IAsyncResult _AsyncResult) 位置 D:\00.机台手游项目\PublicModule\ToolModule\通用Socket\ServerSocketClass.vb:行号 183
+
+Time :2016-11-30 17:39:57
+Title:查询异常：SQLServerControlClass.ExecParamSelect 2 
+数据库：DB_ELECTRONGAMECONFIG
+SQL语句：update T_EGC_GameServerData set _dCheckActiveTime=getdate(),_iOnlineCount=0,_nConnectState=N'已啟動' where _vTag='5PK'
+正在中止线程。
+   在 ToolModule.SQLServerControlClass.ExecParamSQL(Int32 _ModeNum, String _SQLstr, SqlParameter[]& _SQLParams) 位置 D:\00.机台手游项目\PublicModule\ToolModule\通用数据库控制\SQLServerControlClass.vb:行号 89
+
+Time :2016-11-30 17:39:57
+Title:异常过程：ServerSocketClass.ServerListen
+正在中止线程。
+   在 ToolModule.ServerSocketClass.ServerListen() 位置 D:\00.机台手游项目\PublicModule\ToolModule\通用Socket\ServerSocketClass.vb:行号 168
+
+Time :2016-11-30 17:39:57
+Title:执行过程：ServerSocketClass.StartListen(启动监听)
+
+Time :2016-11-30 17:39:57
+Title:执行过程：ClientSocketClass.StartConnect(启动连接)：
+
+Time :2016-11-30 17:41:03
+Title:执行过程：ServerSocketClass.StartListen(启动监听)
+
+Time :2016-11-30 17:41:03
+Title:执行过程：ClientSocketClass.StartConnect(启动连接)：
+
+Time :2016-11-30 17:41:20
+Title:执行过程：ServerSocketClass.StartListen(启动监听)
+
+Time :2016-11-30 17:41:20
+Title:执行过程：ClientSocketClass.StartConnect(启动连接)：
+
+Time :2016-11-30 17:41:28
+Title:执行过程：ServerSocketClass.StartListen(启动监听)
+
+Time :2016-11-30 17:41:28
+Title:执行过程：ClientSocketClass.StartConnect(启动连接)：
+
+Time :2016-11-30 17:41:47
+Title:异常过程：ServerSocketClass.ReceiveData （循环处理接收的数据时）
+索引超出了数组界限。
+   在 GameServer.ToListenClientClass.UesrReceiveAppEvent(String _Msgstr, ServerUserClass _SocketUser) 位置 C:\Users\Administrator\Desktop\GameServer\1.通用代码区（无需修改）\ToListenClientClass.vb:行号 40
+   在 ToolModule.ServerSocketClass.ReceiveData(IAsyncResult _AsyncResult) 位置 D:\00.机台手游项目\PublicModule\ToolModule\通用Socket\ServerSocketClass.vb:行号 288
+
+Time :2016-11-30 17:41:48
+Title:异常过程：ServerSocketClass.ReceiveData （循环处理接收的数据时）
+索引超出了数组界限。
+   在 GameServer.ToListenClientClass.UesrReceiveAppEvent(String _Msgstr, ServerUserClass _SocketUser) 位置 C:\Users\Administrator\Desktop\GameServer\1.通用代码区（无需修改）\ToListenClientClass.vb:行号 40
+   在 ToolModule.ServerSocketClass.ReceiveData(IAsyncResult _AsyncResult) 位置 D:\00.机台手游项目\PublicModule\ToolModule\通用Socket\ServerSocketClass.vb:行号 288
