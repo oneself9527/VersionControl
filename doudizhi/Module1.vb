@@ -33,6 +33,7 @@
             Console.WriteLine(list.Item(i))
         Next
         Dim ar As String = LostCard("12,45,23", "12")
+        Dim qiangge As String = "qianggehaiyoushui "
         Console.WriteLine(ar)
     End Sub
 

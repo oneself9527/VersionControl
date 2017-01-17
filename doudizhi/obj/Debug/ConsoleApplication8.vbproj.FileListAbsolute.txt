@@ -2,3 +2,4 @@ c:\users\administrator\documents\visual studio 2013\Projects\ConsoleApplication8
 c:\users\administrator\documents\visual studio 2013\Projects\ConsoleApplication8\obj\Debug\ConsoleApplication8.Resources.resources
 c:\users\administrator\documents\visual studio 2013\Projects\ConsoleApplication8\obj\Debug\ConsoleApplication8.vbproj.GenerateResource.Cache
 C:\Visual Studio 2013\Projects\ConsoleApplication8\bin\Debug\ConsoleApplication8.exe.config
+D:\Git\VersionControl\doudizhi\bin\Debug\ConsoleApplication8.exe.config
