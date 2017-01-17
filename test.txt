@@ -6,3 +6,5 @@ add merge add delete
 add worktile   
 test  worktile
 qigongzi
+
+git diff
