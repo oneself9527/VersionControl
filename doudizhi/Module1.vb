@@ -33,7 +33,7 @@
             Console.WriteLine(list.Item(i))
         Next
         Dim ar As String = LostCard("12,45,23", "12")
-        Dim qiangge As String = "qianggehaiyoushui "
+        Dim qiangge As String = "qianggehaiyoushui lihaile "
         Console.WriteLine(ar)
     End Sub
 
@@ -55,8 +55,8 @@
             If flag(k) = 1 Then
                 str = str & k
             End If
-        Next
-        Return str
+
+            Return str
     End Function
 
     '附加题  第四题
@@ -163,7 +163,7 @@
         For i = 0 To arr.Length - 1
             For k = 0 To brr.Length - 1
                 If arr(i) = brr(k) Then
-                    arr(i) = ""
+                    arr(i) = "" '
                 End If
             Next
         Next
