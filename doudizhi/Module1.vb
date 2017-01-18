@@ -139,6 +139,7 @@
                     i = i - 1
                     str = ""
                     str2 = ""
+                    str2 = " haha"
                     'Continue For
                 End If
             Next
